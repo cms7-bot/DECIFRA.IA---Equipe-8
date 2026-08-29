@@ -3,8 +3,6 @@
 > Um jogo de decisões inspirado em *Reigns*, onde você governa uma empresa de Inteligência Artificial e aprende conceitos reais de letramento em IA na prática.
 
 ![status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![licença](https://img.shields.io/badge/licença-MIT-blue)
-![plataforma](https://img.shields.io/badge/plataforma-web-informational)
 
 ---
 
@@ -112,8 +110,8 @@ Toda a documentação de engenharia de software está disponível na pasta [`/do
 
 | Nome | Responsabilidade |
 |---|---|
-| [Nome integrante 1] | Visão do produto, definição de processo |
-| [Nome integrante 2] | Requisitos, modelagem, arquitetura e testes |
+| [Caio Moraes] | caio.moraes1102@gmail.como |
+| [Nome integrante 2] |  |
 
 
 
