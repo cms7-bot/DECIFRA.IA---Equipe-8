@@ -110,7 +110,7 @@ Toda a documentação de engenharia de software está disponível na pasta [`/do
 
 | Nome | Responsabilidade |
 |---|---|
-| [Caio Moraes] | caio.moraes1102@gmail.como |
+| [Caio Moraes] | caio.moraes1102@gmail.com |
 | [Nome integrante 2] |  |
 
 
