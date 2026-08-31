@@ -154,115 +154,180 @@ J --> UC12[Avançar de fase]
 J --> UC13[Visualizar novo ambiente]
 ```
 
-### 3.3 "Descrição dos principais casos de uso"
+### 3.3 Descrição dos principais casos de uso
 
 <details>
-<summary><b>UC01 — "Iniciar partida"</b></summary>
+
+<summary><b>UC01 — Iniciar partida</b></summary>
+
 **Ator:** Jogador
+
 **Descrição:** Permite iniciar uma nova partida.
+
 **Fluxo:**
+
 1. O jogador seleciona a opção "Jogar".
 2. O sistema inicializa o estado da partida.
 3. O sistema apresenta o ambiente correspondente à fase atual.
 4. O jogador pode iniciar a exploração.
+
 </details>
 
 <details>
-<summary><b>UC02 — "Explorar ambiente"</b></summary>
+
+<summary><b>UC02 — Explorar ambiente</b></summary>
+
 **Ator:** Jogador
+
 **Descrição:** Permite que o jogador percorra o ambiente da fase atual em perspectiva top-down.
+
 **Fluxo:**
+
 1. O sistema apresenta o ambiente.
 2. O jogador movimenta o personagem utilizando WASD.
 3. O jogador percorre o ambiente.
 4. O jogador identifica elementos com os quais pode interagir.
+
 </details>
 
 <details>
-<summary><b>UC03 — "Movimentar personagem"</b></summary>
+
+<summary><b>UC03 — Movimentar personagem</b></summary>
+
 **Ator:** Jogador
+
 **Descrição:** Permite controlar a movimentação do personagem.
+
 **Fluxo:**
+
 1. O jogador pressiona uma das teclas WASD.
 2. O Frontend identifica a entrada.
 3. O estado do personagem é atualizado.
 4. A posição visual do personagem é atualizada.
+
 </details>
 
 <details>
-<summary><b>UC04 — "Interagir com ambiente"</b></summary>
+
+<summary><b>UC04 — Interagir com ambiente</b></summary>
+
 **Ator:** Jogador
+
 **Descrição:** Permite que o jogador interaja com elementos relevantes do ambiente.
 
 As interações poderão ocorrer, por exemplo, com:
+
 - `NPCs`
 - `Computadores`
 - `Outros elementos definidos para cada fase`
 
 > Uma interação válida pode desencadear um cenário de decisão.
+
 </details>
 
 <details>
-<summary><b>UC05 — "Visualizar dilema"</b></summary>
+
+<summary><b>UC05 — Visualizar dilema</b></summary>
+
 **Ator:** Jogador
+
 **Descrição:** Após determinada interação, o sistema apresenta um cenário relacionado a um dilema de Inteligência Artificial.
 
 Os temas previstos incluem:
+
 - `Viés`
 - `Alucinação`
 - `Privacidade`
 - `Dependência`
+
 </details>
 
 <details>
-<summary><b>UC06 — "Tomar decisão por swipe"</b></summary>
+
+<summary><b>UC06 — Tomar decisão por swipe</b></summary>
+
 **Ator:** Jogador
+
 **Descrição:** Permite selecionar uma das duas posturas apresentadas no dilema por meio do arraste da carta.
+
 **Fluxo:**
+
 1. O jogador visualiza a carta.
 2. O jogador analisa as duas alternativas.
 3. O jogador arrasta a carta para a esquerda ou direita.
 4. O sistema identifica a direção.
 5. A alternativa correspondente é selecionada.
 6. A decisão é encaminhada para processamento.
+
 </details>
 
 <details>
-<summary><b>UC07 — "Visualizar feedback"</b></summary>
+
+<summary><b>UC07 — Visualizar feedback</b></summary>
+
 **Ator:** Jogador
+
 **Descrição:** Após uma decisão, o sistema apresenta uma explicação relacionada à escolha realizada e às suas consequências.
+
 </details>
 
 <details>
-<summary><b>UC08 — "Acompanhar medidores"</b></summary>
+
+<summary><b>UC08 — Acompanhar medidores</b></summary>
+
 **Ator:** Jogador
+
 **Descrição:** O sistema apresenta o estado dos quatro medidores:
+
 - `Confiança`
 - `Privacidade`
 - `Lucro`
 - `Viés`
 
 > Os valores são alterados conforme as decisões tomadas durante a partida.
+
 </details>
 
 <details>
-<summary><b>UC09 — "Visualizar Game Over"</b></summary>
+
+<summary><b>UC09 — Visualizar Game Over</b></summary>
+
 **Ator:** Jogador
+
 **Descrição:** O sistema encerra a partida quando um dos medidores atingir uma condição de término.
 
 > A tela de Game Over deverá apresentar uma mensagem relacionada à causa do encerramento.
+
 </details>
 
 <details>
-<summary><b>UC10 — "Visualizar resultado"</b></summary>
+
+<summary><b>UC10 — Visualizar resultado</b></summary>
+
 **Ator:** Jogador
+
 **Descrição:** Caso o jogador conclua a partida, o sistema apresenta um resumo contendo a pontuação final e o resultado alcançado.
+
 </details>
 
 <details>
-<summary><b>UC12 — "Avançar de fase"</b></summary>
+
+<summary><b>UC11 — Reiniciar partida</b></summary>
+
 **Ator:** Jogador
+
+**Descrição:** Permite iniciar uma nova partida após o encerramento da partida atual.
+
+</details>
+
+<details>
+
+<summary><b>UC12 — Avançar de fase</b></summary>
+
+**Ator:** Jogador
+
 **Descrição:** Permite que o jogador avance para novas etapas da progressão de carreira conforme os critérios definidos pelo jogo.
+
 </details>
 
 ---
