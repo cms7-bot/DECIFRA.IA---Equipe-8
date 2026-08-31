@@ -32,11 +32,11 @@
 | `RNF01` | **"Execução"** | O sistema deve compilar e executar sem erros. |
 | `RNF02` | **"Interface"** | O jogo deve possuir uma interface visual simples para apresentação das informações e interação com o jogador. |
 | `RNF03` | **"Tecnologias"** | A solução deve utilizar **C** e **Haskell**, respeitando a separação de responsabilidades definida na arquitetura. |
-| `RNF04 | **"Modularidade"** | Os componentes devem possuir responsabilidades separadas, evitando concentrar interface, estado e regras em um único módulo. |
-| `RNF05 | **"Consistência"** | As mesmas decisões, considerando o mesmo estado, devem produzir resultados consistentes de acordo com as regras definidas. |
-| `RNF06 | **"Testabilidade"** | As principais regras e comportamentos do sistema devem poder ser testados de forma independente. |
-| `RNF07 | **"Conteúdo educativo"** | A Unidade 1 deve abordar os quatro pilares definidos para o jogo: viés, alucinação, privacidade e dependência. |
-| `RNF08| **"Escopo técnico"** |: A solução não deve utilizar banco de dados, multiplayer, IA generativa/real ou engine de jogos. |
+| `RNF04`| **"Modularidade"** | Os componentes devem possuir responsabilidades separadas, evitando concentrar interface, estado e regras em um único módulo. |
+| `RNF05`| **"Consistência"** | As mesmas decisões, considerando o mesmo estado, devem produzir resultados consistentes de acordo com as regras definidas. |
+| `RNF06`| **"Testabilidade"** | As principais regras e comportamentos do sistema devem poder ser testados de forma independente. |
+| `RNF07`| **"Conteúdo educativo"** | A Unidade 1 deve abordar os quatro pilares definidos para o jogo: viés, alucinação, privacidade e dependência. |
+| `RNF08` **"Escopo técnico"** |: A solução não deve utilizar banco de dados, multiplayer, IA generativa/real ou engine de jogos. |
 
 ---
 
