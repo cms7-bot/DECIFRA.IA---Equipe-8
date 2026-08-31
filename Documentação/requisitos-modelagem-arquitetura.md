@@ -6,7 +6,7 @@
 
 ## 1. Requisitos Funcionais
 
-> Os requisitos funcionais definem os comportamentos e funcionalidades que o Decifra.IA deverá oferecer ao jogador.
+> Os requisitos funcionais definem os comportamentos e funcionalidades.
 
 ### 1.1 "Requisitos funcionais"
 
@@ -45,7 +45,6 @@ flowchart LR
 A["Estagiário"] --> B["Programador Júnior"] --> C["Programador Pleno"] --> D["Programador Sênior"] --> E["Tech Lead"]
 ```
 
-> Os nomes e critérios definitivos de progressão poderão ser refinados durante o desenvolvimento.
 
 ### 1.2 "Fluxo funcional geral"
 
@@ -381,7 +380,6 @@ C --> H["<b>Haskell</b><br/>Regras<br/>Consequências<br/>Pontuação<br/>Valida
 - Apresentar a progressão entre fases
 - Adaptar a interface aos dispositivos suportados
 
-> O Frontend não deverá concentrar diretamente as regras de negócio do jogo.
 
 ### 4.3 "C"
 
@@ -427,33 +425,32 @@ FE1 --> Jogador1
 
 ```mermaid
 sequenceDiagram
-participant J as Jogador
-participant F as Frontend
-participant C as C
+    participant J as Jogador
+    participant F as Frontend Web
+    participant C as C
 
-J->>F: Pressiona W
-F->>C: Captura a entrada
-C->>C: Atualiza o estado do personagem
-C->>F: Novo estado
-F->>J: Apresenta a nova posição
+    J->>F: Pressiona W
+    F->>C: Envia comando de movimentação
+    C->>C: Atualiza posição do personagem
+    C-->>F: Retorna novo estado
+    F-->>J: Atualiza posição na tela
 ```
 **Exemplo — durante uma decisão:**
 
 ```mermaid
 sequenceDiagram
-participant J as Jogador
-participant F as Frontend
-participant C as C
-participant H as Haskell
+    participant J as Jogador
+    participant F as Frontend Web
+    participant C as C
+    participant H as Haskell
 
-J->>F: Realiza swipe
-F->>F: Identifica esquerda/direita
-F->>C: Envia a decisão
-C->>H: Processa as regras
-H->>C: Retorna as consequências
-C->>C: Atualiza estado e medidores
-C->>F: Estado atualizado
-F->>J: Apresenta o feedback
+    J->>F: Realiza swipe
+    F->>C: Envia decisão (esquerda/direita)
+    C->>H: Solicita processamento da decisão
+    H-->>C: Retorna consequências
+    C->>C: Atualiza estado da partida
+    C-->>F: Retorna estado atualizado
+    F-->>J: Exibe medidores e feedback
 ```
 
 ### 4.6 "Arquitetura e progressão do jogo"
