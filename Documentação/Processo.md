@@ -56,7 +56,6 @@ BACKLOG  →  EM ANDAMENTO  →  EM REVISÃO  →  CONCLUÍDO
 | Comunicação da equipe | Discord ou WhatsApp (canal único) | Alinhamentos rápidos, dailies assíncronas, avisos de bloqueios |
 | Reuniões síncronas | Google Meet ou presencial | Planning, Review e Retrospectiva semanais |
 | Documentação | Markdown (`.md`) no repositório, organizados em `/docs` | Visão, Requisitos, Histórias de Usuário, Modelagem, Arquitetura, Processo e Testes |
-| Protótipo | HTML/CSS/JavaScript | Implementação do jogo jogável (`/index.html`) |
 
 ---
 
