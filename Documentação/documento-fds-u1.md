@@ -36,7 +36,7 @@
 | `RNF05`| **"Consistência"** | As mesmas decisões, considerando o mesmo estado, devem produzir resultados consistentes de acordo com as regras definidas. |
 | `RNF06`| **"Testabilidade"** | As principais regras e comportamentos do sistema devem poder ser testados de forma independente. |
 | `RNF07`| **"Conteúdo educativo"** | A Unidade 1 deve abordar os quatro pilares definidos para o jogo: viés, alucinação, privacidade e dependência. |
-| `RNF08` **"Escopo técnico"** |: A solução não deve utilizar banco de dados, multiplayer, IA generativa/real ou engine de jogos. |
+| `RNF08`|**"Escopo técnico"** |: A solução não deve utilizar banco de dados, multiplayer, IA generativa/real ou engine de jogos. |
 
 ---
 
