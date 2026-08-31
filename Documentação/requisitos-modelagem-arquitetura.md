@@ -478,27 +478,3 @@ Progressao --> NovaFase["Nova fase"]
 
 ---
 
-## 5. Escopo das Unidades
-
-> Os requisitos e a arquitetura apresentados neste documento representam o produto **como um todo**, não estando restritos somente à implementação da Unidade 1.
-
-| Funcionalidade | U1 | U2 |
-|---|:--:|:--:|
-| Estrutura inicial do jogo | | |
-| Ambiente top-down | | |
-| Movimentação WASD | | |
-| Interação com ambiente | | |
-| Dilemas | | |
-| Cartas e swipe | | |
-| Medidores | | |
-| Feedback | | |
-| Game Over | | |
-| Resumo da partida | | |
-| Conteúdos educativos adicionais | | |
-| Eventos adicionais | | |
-| Múltiplos finais | | |
-| Progressão de carreira | | |
-| Novas fases e ambientes | | |
-
-> **"Unidade 1"** estabelece a estrutura fundamental e o ciclo principal de gameplay.
-> **"Unidade 2"** amplia esse núcleo com conteúdos, eventos, progressão e demais funcionalidades previstas para o produto final.
