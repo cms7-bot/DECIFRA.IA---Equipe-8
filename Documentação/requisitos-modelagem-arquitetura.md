@@ -1,6 +1,5 @@
 # Documento de Fundamentos de Desenvolvimento de Software — Decifra.IA
 
-> Este documento considera o produto **como um todo**, abrangendo as funcionalidades previstas para as **Unidades 1 e 2**.
 
 ---
 
@@ -339,7 +338,6 @@ A arquitetura do Decifra.IA será organizada em três componentes principais:
 - **"C"**: gerenciamento do estado e fluxo principal do jogo
 - **"Haskell"**: processamento das regras e consequências
 
-> A comunicação entre essas partes deverá manter uma separação clara de responsabilidades.
 
 ### 4.1 "Visão geral"
 
