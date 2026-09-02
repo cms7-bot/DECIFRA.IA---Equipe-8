@@ -60,8 +60,6 @@ Proporcionar uma experiência de jogo envolvente que, através de decisões simu
 - Expansões pagas ou monetização
 - Tradução para outros idiomas além do português
 
-> O escopo fora do MVP pode ser reavaliado como trabalho futuro, mas não faz parte da entrega desta disciplina.
-
 ---
 
 ## 5. Stakeholders
