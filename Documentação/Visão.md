@@ -14,7 +14,7 @@ O produto combina uma mecânica de jogo simples e replicável (própria do gêne
 
 ## 2. Problema / Oportunidade
 
-Discussões sobre Inteligência Artificial se tornaram parte do cotidiano — em notícias, redes sociais e no ambiente de trabalho — mas grande parte da população não tem contato prático com os dilemas éticos e técnicos que envolvem o desenvolvimento e uso de sistemas de IA. Conceitos como viés algorítmico, alucinação de modelos, deepfakes e privacidade de dados costumam ser tratados de forma técnica ou abstrata, distante da experiência de quem não trabalha diretamente na área.
+Discussões sobre Inteligência Artificial se tornaram parte do cotidiano em notícias, redes sociais e no ambiente de trabalho, mas grande parte da população não tem contato prático com os dilemas éticos e técnicos que envolvem o desenvolvimento e uso de sistemas de IA. Conceitos como viés algorítmico, alucinação de modelos, deepfakes e privacidade de dados costumam ser tratados de forma técnica ou abstrata, distante da experiência de quem não trabalha diretamente na área.
 
 Ao mesmo tempo, jogos de decisão no estilo *Reigns* têm um histórico comprovado de engajamento por serem simples, rápidos e viciantes, sem exigir tutoriais extensos. **A oportunidade identificada é usar essa mecânica já validada como veículo para letramento em IA**, tornando o aprendizado sobre riscos, limitações e responsabilidades da tecnologia algo acessível, interativo e memorável — em vez de puramente teórico.
 
