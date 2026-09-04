@@ -1,10 +1,10 @@
-# Estratégias e Casos de Teste — [Nome a definir]
+# Estratégias e Casos de Teste — else
 
 ---
 
 ## 1. Objetivo
 
-Definir a estratégia de testes do projeto [Nome a definir], garantindo que as funcionalidades descritas nas Histórias de Usuário e no Documento de Requisitos funcionem corretamente antes da entrega final, com foco em validar o **core loop do jogo**, a **atualização correta dos medidores** e a **camada educativa**, que são o núcleo de valor do produto.
+Definir a estratégia de testes do projeto else, garantindo que as funcionalidades descritas nas Histórias de Usuário e no Documento de Requisitos funcionem corretamente antes da entrega final, com foco em validar o **core loop do jogo**, a **atualização correta dos medidores** e a **camada educativa**, que são o núcleo de valor do produto.
 
 ## 2. Escopo dos testes
 
