@@ -1,6 +1,6 @@
 # 🎮 else
 
-> Um jogo de decisões inspirado em *Reigns*, onde você governa uma empresa de Inteligência Artificial e aprende conceitos reais de letramento em IA na prática.
+> Um jogo de exploração e decisões inspirado em *Reigns*, onde você explora ambientes, interage com NPCs e sistemas, e governa os rumos de uma empresa de Inteligência Artificial enquanto aprende conceitos reais de letramento em IA na prática.
 
 ![status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
@@ -8,7 +8,7 @@
 
 ## 📖 Sobre o projeto
 
-**else** é um jogo de decisões por arraste (*swipe*), no estilo do clássico *Reigns*, em que o jogador assume o papel de responsável por uma empresa de Inteligência Artificial. A cada dilema apresentado, é preciso equilibrar quatro pilares — **Confiança pública**, **Investidores**, **Ética/Segurança** e **Inovação** — enquanto aprende, na prática, sobre temas reais como viés algorítmico, alucinação de modelos, deepfakes e privacidade de dados.
+**else** é um jogo em que o jogador assume o papel de responsável por uma empresa de Inteligência Artificial. O jogador explora ambientes em perspectiva top-down (movimentação via **WASD**) e interage com NPCs e computadores para acionar cenários de decisão. Cada cenário apresenta um dilema real do campo de IA, resolvido por meio de uma carta que pode ser arrastada (*swipe*) para a esquerda ou direita. A cada dilema apresentado, é preciso equilibrar quatro medidores — **Confiança**, **Privacidade**, **Lucro** e **Viés** — enquanto aprende, na prática, sobre temas reais como viés algorítmico, alucinação de modelos, deepfakes e privacidade de dados. Conforme progride, o jogador avança por diferentes fases de carreira, de **Estagiário** a **Tech Lead**.
 
 
 ### 🎯 Objetivo do jogo
@@ -19,8 +19,11 @@ Sobreviver o maior número de dias possível, mantendo os quatro medidores equil
 
 ## ✨ Funcionalidades
 
+- 🧭 Exploração de ambientes top-down, com movimentação do personagem via WASD
+- 🖥️ Interação com NPCs e computadores para acionar cenários de decisão
 - 🃏 Sistema de decisões por arraste (esquerda/direita), com suporte a mouse e toque
-- 📊 Quatro medidores dinâmicos que reagem a cada escolha
+- 📊 Quatro medidores dinâmicos (Confiança, Privacidade, Lucro, Viés) que reagem a cada escolha
+- 🪜 Progressão de carreira em fases (Estagiário → Programador Júnior → Pleno → Sênior → Tech Lead)
 - 🔮 Núcleo visual da IA que muda de aparência conforme o estado geral do sistema
 - 🔍 Opção de "investigar" um dilema antes de decidir
 - 🗣️ Conselheiros que oferecem dicas rápidas sobre o dilema atual
@@ -48,14 +51,16 @@ Sobreviver o maior número de dias possível, mantendo os quatro medidores equil
 
 ## 🕹️ Como jogar
 
-1. Leia o dilema apresentado no cartão central
-2. Arraste o cartão para a **esquerda** ou **direita** para escolher uma das duas opções
-3. Acompanhe os quatro medidores no topo da tela
-4. Use os gestos extras quando disponíveis:
+1. Explore o ambiente da fase atual usando **WASD**
+2. Interaja com NPCs ou computadores para acionar um cenário de decisão
+3. Leia o dilema apresentado no cartão central
+4. Arraste o cartão para a **esquerda** ou **direita** para escolher uma das duas opções
+5. Acompanhe os quatro medidores (Confiança, Privacidade, Lucro, Viés) no topo da tela
+6. Use os gestos extras quando disponíveis:
    - Segurar o cartão → ver prévia do impacto
    - Arrastar para cima → investigar o dilema
    - Duplo toque → consultar um conselheiro
-5. Sobreviva o maior número de dias possível sem deixar nenhum medidor zerar ou estourar
+7. Avance de fase conforme progride na carreira, sobrevivendo o maior número de dias possível sem deixar nenhum medidor zerar ou estourar
 
 ---
 
@@ -112,6 +117,3 @@ Toda a documentação de engenharia de software está disponível na pasta [`/do
 |---|---|
 | Caio Moraes | caio.moraes1102@gmail.com |
 | [Nome integrante 2] |  |
-
-
-
