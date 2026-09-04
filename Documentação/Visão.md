@@ -1,14 +1,14 @@
-# Documento de Visão — [Nome a definir]
+# Documento de Visão — else
 
 ---
 
 ## 1. Descrição geral do produto
 
-**[Nome a definir]** é um jogo de decisões por arraste (*swipe*), inspirado no jogo *Reigns*, no qual o jogador assume o papel de responsável por uma empresa/laboratório de Inteligência Artificial. A cada rodada, o jogador recebe um dilema real enfrentado por empresas de tecnologia — como vieses algorítmicos, vazamento de dados, deepfakes e pressão de investidores — e precisa decidir arrastando um cartão para a esquerda ou para a direita.
+**else** é um jogo de exploração e decisões, inspirado no jogo *Reigns*, no qual o jogador assume o papel de responsável por uma empresa/laboratório de Inteligência Artificial. O jogador explora os ambientes de cada fase em perspectiva top-down, movimentando o personagem com **WASD** e interagindo com NPCs e computadores para acionar cenários de decisão. A cada cenário, o jogador recebe um dilema real enfrentado por empresas de tecnologia — como vieses algorítmicos, vazamento de dados, deepfakes e pressão de investidores — e precisa decidir arrastando um cartão para a esquerda ou para a direita.
 
-Cada decisão impacta quatro medidores que representam os pilares de equilíbrio da empresa: **Confiança pública**, **Investidores/Recursos**, **Ética/Segurança** e **Inovação/Competitividade**. O objetivo é sobreviver o maior número de dias possível sem deixar nenhum medidor zerar ou estourar, enquanto aprende, na prática, conceitos reais de letramento em Inteligência Artificial.
+Cada decisão impacta quatro medidores que representam os pilares de equilíbrio da empresa: **Confiança**, **Privacidade**, **Lucro** e **Viés**. Conforme avança, o jogador progride por diferentes fases de carreira — de **Estagiário** a **Tech Lead** — cada uma com seu próprio ambiente e conjunto de dilemas. O objetivo é sobreviver o maior número de dias possível sem deixar nenhum medidor zerar ou estourar, enquanto aprende, na prática, conceitos reais de letramento em Inteligência Artificial.
 
-O produto combina uma mecânica de jogo simples e replicável (própria do gênero *card-swipe*) com uma camada educativa: toasts explicativos, mini-quizzes, telas de auditoria e finais de jogo narrativos, todos baseados em situações reais do campo de IA.
+O produto combina uma mecânica de exploração simples com o núcleo de decisão por *card-swipe*, já validado pelo gênero, e uma camada educativa: toasts explicativos, mini-quizzes, telas de auditoria e finais de jogo narrativos, todos baseados em situações reais do campo de IA.
 
 ---
 
@@ -41,9 +41,12 @@ Proporcionar uma experiência de jogo envolvente que, através de decisões simu
 ## 4. Escopo do produto
 
 ### 4.1 Escopo incluso na versão atual (MVP)
+- Exploração de ambientes em perspectiva top-down, com movimentação do personagem via WASD
+- Interação com NPCs e computadores para acionar cenários de decisão
 - Mecânica principal de decisão por arraste (swipe esquerda/direita), com suporte a mouse e toque
-- Sistema de 4 medidores (Confiança, Investidores, Ética, Inovação) que reagem a cada decisão
+- Sistema de 4 medidores (Confiança, Privacidade, Lucro, Viés) que reagem a cada decisão
 - Baralho de cartas/dilemas baseados em situações reais do campo de IA
+- Progressão de carreira em fases (Estagiário → Programador Júnior → Pleno → Sênior → Tech Lead), cada uma com seu ambiente
 - Núcleo visual da IA que reage ao estado geral do sistema (estável, em alerta, crítico)
 - Interações complementares: prévia de impacto ao segurar o cartão, investigação de dilema (arrastar para cima), consulta a conselheiros (duplo toque)
 - Eventos dinâmicos: notificações inesperadas simulando notícias/eventos externos
