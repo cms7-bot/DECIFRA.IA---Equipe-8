@@ -1,4 +1,4 @@
-# 🎮 REIGNS: IA
+# 🎮 else
 
 > Um jogo de decisões inspirado em *Reigns*, onde você governa uma empresa de Inteligência Artificial e aprende conceitos reais de letramento em IA na prática.
 
@@ -8,7 +8,7 @@
 
 ## 📖 Sobre o projeto
 
-**REIGNS: IA** é um jogo de decisões por arraste (*swipe*), no estilo do clássico *Reigns*, em que o jogador assume o papel de responsável por uma empresa de Inteligência Artificial. A cada dilema apresentado, é preciso equilibrar quatro pilares — **Confiança pública**, **Investidores**, **Ética/Segurança** e **Inovação** — enquanto aprende, na prática, sobre temas reais como viés algorítmico, alucinação de modelos, deepfakes e privacidade de dados.
+**else** é um jogo de decisões por arraste (*swipe*), no estilo do clássico *Reigns*, em que o jogador assume o papel de responsável por uma empresa de Inteligência Artificial. A cada dilema apresentado, é preciso equilibrar quatro pilares — **Confiança pública**, **Investidores**, **Ética/Segurança** e **Inovação** — enquanto aprende, na prática, sobre temas reais como viés algorítmico, alucinação de modelos, deepfakes e privacidade de dados.
 
 
 ### 🎯 Objetivo do jogo
