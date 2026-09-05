@@ -98,6 +98,16 @@ Toda a documentação de engenharia de software está disponível na pasta [`/do
 
 ---
 
+## 📋 Gestão do projeto
+
+Sprints, backlog e tarefas é feito no board do Jira:
+
+🔗 [Board do projeto (Jira)](https://algs2.atlassian.net/jira/software/c/projects/PI2E8/boards/8)
+
+---
+
+---
+
 ## 🗺️ Roadmap
 
 - [x] Protótipo jogável com mecânica principal (swipe + medidores)
