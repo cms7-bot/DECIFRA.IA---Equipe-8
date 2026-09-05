@@ -121,14 +121,15 @@ Sprints, backlog e tarefas é feito no board do Jira:
 
 ## 👥 Equipe
 
+
 | Nome            | Responsabilidade |
 |-----------------|------------------|
 | Caio Moraes     | caio.moraes1102@gmail.com |
-| Pierre Davi     |   |
+| Pierre Davi     |  pierremelo03@gmail.com |
 | Arthur Henrique |  |
 | Igor Almeida    |  |
-| Daniela Menezes |  |
-| Athos Vieira    |  |
-| José André      | andrefmelo2008@gmail.com | 
+| Daniela Menezes | dani.a.menezes@outlook.com |
+| Athos Vieira    | avas@cesar.school |
+| José André      | andrefmelo2008@gmail.com |
 
 
