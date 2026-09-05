@@ -131,4 +131,4 @@ Sprints, backlog e tarefas é feito no board do Jira:
 | Athos Vieira    |  |
 | José André      | andrefmelo2008@gmail.com | 
 
-´´´
+
