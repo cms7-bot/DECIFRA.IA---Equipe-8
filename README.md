@@ -106,8 +106,6 @@ Sprints, backlog e tarefas é feito no board do Jira:
 
 ---
 
----
-
 ## 🗺️ Roadmap
 
 - [x] Protótipo jogável com mecânica principal (swipe + medidores)
