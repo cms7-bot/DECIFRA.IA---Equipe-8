@@ -113,7 +113,12 @@ Toda a documentação de engenharia de software está disponível na pasta [`/do
 
 ## 👥 Equipe
 
-| Nome | Responsabilidade |
-|---|---|
-| Caio Moraes | caio.moraes1102@gmail.com |
-| [Nome integrante 2] |  |
+| Nome            | Responsabilidade |
+|-----------------|------------------|
+| Caio Moraes     | caio.moraes1102@gmail.com |
+| Pierre Davi     |   |
+| Arthur Henrique |  |
+| Igor Almeida    |  |
+| Daniela Menezes |  |
+| Athos Vieira    |  |
+| José André      | andrefmelo2008@gmail.com |
